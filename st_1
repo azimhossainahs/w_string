@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+  char text[50];
+  fgets(text,50,stdin);
+    printf("%s",text);
+return 0;
+}
